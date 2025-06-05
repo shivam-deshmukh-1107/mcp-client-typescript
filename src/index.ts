@@ -96,7 +96,7 @@ class MCPClient {
         try {
             args = JSON.parse(argJsonRaw);
         } catch (err) {
-            console.error("⚠️ Failed to parse tool arguments:\n", argJsonRaw);
+            console.error("Failed to parse tool arguments:\n", argJsonRaw);
             throw err;
         }
 
